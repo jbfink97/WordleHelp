@@ -103,6 +103,11 @@ for i in range(6):
             elif feedback[i] == "y" and guess[i] == word[i]:
                 words.remove(word)
                 break
+    if len(words) == 0:
+        print("i think you messed something up, there are no possible words left")
+        print("it definitely wasn't my fault im perfect")
+        print("but you can try again")
+        break
     # Print possible remaining words, counter makes sure to print only 8 words/line
     print("possible remaining words:")
     counter = 0
