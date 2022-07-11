@@ -75,8 +75,7 @@ for i in range(6):
 
     # if all tiles are green, the game is over and the loop breaks
     if feedback == "ggggg":
-        print("nice! you won the big game and you only had to use this stupid program to help")
-        print("maybe try expanding your vocab a little more, idiot")
+        print("nice! you won! thanks for using WordleHelp I hope you enjoyed!)
         break
 
     # cannot make changes to a list as you iterate over it, so make current words list into a tuple
