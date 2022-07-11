@@ -25,6 +25,6 @@ In the example below, "adder" has one "d" with a grey tile and one "d" with a gr
 For the "feedback" prompt, the user would need to enter the "d" with the grey tile as yellow since a letter cannot be both in the word (green tile) and missing
 from the word (grey tile) at the same time.
 
+![adderExample](/images/adder.PNG)
 
-
-The resulting feedback would need to be entered as: "yygww"
+The resulting feedback would need to be entered as: "yygww" and __NOT__ "ywgww" as you may expect.
